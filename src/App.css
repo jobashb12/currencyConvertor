@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/3532540/pexels-photo-3532540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+}
+.formWrapper {
+  padding: 20px;
+  width: 450px;
+  background-color: rgb(255 255 255 /0.3);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+form {
+  width: 100%;
+}
+.swap_btn {
+  position: relative;
+}
+.swap_btn > span {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  padding: 5px 8px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #2563eb;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.swap_btn > button:active {
+  transform: scale(0.9) translateX(-50%);
+  -webkit-transform: scale(0.9) translateX(-50%);
+  -moz-transform: scale(0.9) translateX(-50%);
+  -ms-transform: scale(0.9) translateX(-50%);
+  -o-transform: scale(0.9) translateX(-50%);
+}
+.formWrapper .btn {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  background-color: #2563eb;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -ms-border-radius: 0.4rem;
+  -o-border-radius: 0.4rem;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.formWrapper .btn:active {
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+}

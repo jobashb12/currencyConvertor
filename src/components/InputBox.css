@@ -1,0 +1,51 @@
+.input {
+  width: 100%;
+  padding: 15px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.input_wrapper {
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+}
+.left,
+.right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.left > label,
+.right > label {
+  font-size: 15px;
+  color: #9999a3;
+  font-weight: 400;
+}
+.left > input {
+  outline: none;
+  border: none;
+  font-size: 14px;
+  padding: 7px 0;
+}
+.right {
+  align-items: end;
+}
+.right > select {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #f2f2f2;
+  padding: 7px 4px;
+  font-size: 14px;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  -moz-border-radius: 0.4rem;
+  -ms-border-radius: 0.4rem;
+  -o-border-radius: 0.4rem;
+}
